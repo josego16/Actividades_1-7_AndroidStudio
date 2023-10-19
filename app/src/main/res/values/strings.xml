@@ -3,4 +3,5 @@
     <string name="saludar">Saludar</string>
     <string name="presentacion">Hola, soy Jose Maria</string>
     <string name="hola">bienvenido al curso</string>
+    <string name="cicloVida">Esto es el ciclo de vida</string>
 </resources>
