@@ -9,11 +9,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val botonSaludo: Button = findViewById(R.id.botonSaludo)
-        botonSaludo.setOnClickListener {
-            val miIntent = Intent(this, SecondActivity::class.java)
-            startActivity(miIntent)
-        }
     }
 }
