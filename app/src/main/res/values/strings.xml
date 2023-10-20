@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">RepositorioTareas</string>
-    <string name="saludar">Saludar</string>
     <string name="presentacion">Hola, soy Jose Maria</string>
     <string name="hola">bienvenido al curso</string>
     <string name="cicloVida">Esto es el ciclo de vida</string>
     <string name="Bienvenido">Hola, soy Josema y este es mi primer layout</string>
-    <string name="Saludar">Click aqui</string>
+    <string name="saludo">Saludar</string>
+    <string name="noSaludar">No Saludar</string>
+    <string name="saludarClase">Saludo a clase</string>
+    <string name="Saludar">click aqui</string>
 </resources>
