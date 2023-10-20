@@ -36,12 +36,16 @@ class MainActivity : AppCompatActivity(), OnClickListener {
      * Primera forma creando el evento onclick desde el xml
      */
     fun saludarJosema(view: View) {
-        if (view.id == R.id.btnSaludo) {
-            Toast.makeText(this, "Hola jose maria", Toast.LENGTH_LONG).show()
-        } else if (view.id == R.id.btnNoSaludo) {
-            Toast.makeText(this, "No voy a saludar a jose maria", Toast.LENGTH_LONG).show()
-        } else if (view.id == R.id.btnSaludoClase) {
-            Toast.makeText(this, "Buenos dias clase de jose maria", Toast.LENGTH_LONG).show()
+        when (view.id) {
+            R.id.btnSaludo -> {
+                Toast.makeText(this, "Hola jose maria", Toast.LENGTH_LONG).show()
+            }
+            R.id.btnNoSaludo -> {
+                Toast.makeText(this, "No voy a saludar a jose maria", Toast.LENGTH_LONG).show()
+            }
+            R.id.btnSaludoClase -> {
+                Toast.makeText(this, "Buenos dias clase de jose maria", Toast.LENGTH_LONG).show()
+            }
         }
     }
 
@@ -49,12 +53,16 @@ class MainActivity : AppCompatActivity(), OnClickListener {
      * Segunda forma desde el main activity
      */
     override fun onClick(vista: View?) {
-        if (vista?.id == R.id.btnSaludo) {
-            Toast.makeText(this, "Hola jose maria", Toast.LENGTH_LONG).show()
-        } else if (vista?.id == R.id.btnNoSaludo) {
-            Toast.makeText(this, "No voy a saludar a jose maria", Toast.LENGTH_LONG).show()
-        } else if (vista?.id == R.id.btnSaludoClase) {
-            Toast.makeText(this, "Buenos dias clase de jose maria", Toast.LENGTH_LONG).show()
+        when (vista?.id) {
+            R.id.btnSaludo -> {
+                Toast.makeText(this, "Hola jose maria", Toast.LENGTH_LONG).show()
+            }
+            R.id.btnNoSaludo -> {
+                Toast.makeText(this, "No voy a saludar a jose maria", Toast.LENGTH_LONG).show()
+            }
+            R.id.btnSaludoClase -> {
+                Toast.makeText(this, "Buenos dias clase de jose maria", Toast.LENGTH_LONG).show()
+            }
         }
     }
 
